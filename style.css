@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    
+}
+
+div{
+    display:flex;
+    align-items: center;
+  
+}
+/img{
+    margin: 10px;
+    width: 300px;
+ 
+    animation: mover 2s;
+    animation-name: mover;
+    animation-duration: 3s;
+    animation-direction
+    animation-iteration-count: infinite;
+}
+
+@keyframes mover{
+    from{
+        top: 0px;
+    }
+    50%{
+        top: 100px;
+    }
+    to{
+        top: 200px;
+    }
+}*/ 
+/* img:hover{
+    filter: grayscale(80%);
+    box-shadow: 10px 10px 30px black;
+    transform: rotate(360deg) scaleX(30);
+} */
+
+@keyframes mover{
+    0%{
+        transform: translateX(0) translateY(0);
+    }
+    20%{
+
+        transform: translateX(200px) translateY(0);
+
+    }
+
+    40%{
+        transform: translateX(200px) translateY(200px);
+    }
+
+    80%{
+        transform: translateX(0) translateY(0);
+    }
+    
+    100%{
+        transform: rotate(200deg);
+    }
+}
+*/
+@keyframes mover{
+    from{
+        transform
+    }
+
+}
+
+@keyframes exemple {
+    from{background-color: green;}
+    to {background-color: yellow;}
+}
+
